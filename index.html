@@ -140,7 +140,7 @@
     <section>
         <h2>Contact</h2>
         <p>How to get in touch with me, including email and social media links.</p>
-        <form>
+        <form action="https://formspree.io/f/mqabvykb" method="POST">
             <div>
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
@@ -166,6 +166,10 @@
                 <input type="url" id="website" name="website" pattern="https?://.+" placeholder="https://example.com" required>
             </div>
 
+            <div>
+                <label for="Images">Upload Image:</label>
+                <input type="file" id="Images" name="Images" accept="image/*" required>
+            </div>
             <div>
                 <label for="subject">Subject:</label>
                 <select name="subject" id="subject">

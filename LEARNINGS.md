@@ -1,5 +1,7 @@
 # HTML LEARNINGS
 
+## Basic HTML
+
 1. How website works?
    -client-server model
    -http request and response
@@ -43,3 +45,13 @@
 14. Basic Table:
 15. Basic Form:
 16. Deploy:
+
+## Intermediate HTML
+
+-Meta tag & SEO
+-Adding font-awesome icons and google font
+-advance table
+-advance form
+-form data send to your email
+-multimedia
+-html5 elements

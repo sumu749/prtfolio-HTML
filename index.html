@@ -3,24 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Sumaiya Alam">
+    <meta name="keywords" content="portfolio, web developer, CSE student, projects, skills ">
+    <meta name="description" content="Portfolio of Sumaiya Alam, a web developer and CSE student showcasing skills, projects, and contact information.">
+
     <title>Portfolio</title>
+
+    <!-- font awesome cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libertinus+Math&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-color: rgb(154, 188, 181);
+            font-family: 'Libertinus Math', serif;
+        }
+    </style>
 </head>
 <body>
     <!-- navigation (relative path) -->
-    <nav>
+    <header>
+        <nav>
         <a href="index.html" title="visit home page" target="_self">Home</a>
         <a href="about.html"target="_self">About</a>
         <a href="contact.html"target="_self">Contact</a>
-    </nav>
+        </nav>
+    </header>
 
-    <!-- section: Intro  -->
-    <header>
+    <!-- main  -->
+    <main>
+        <!-- section: Intro  -->
+    <section>
         <h1>Sumaiya Alam</h1>
         <p><em>web developer,student of BSc in CSE</em></p>
         <a href="https://www.facebook.com/sumaiya.alam.749" target="_blank"><img src="Images/BAU.jpg" alt="BAU" width="200" height="200"></a>
         
         <hr>
-    </header>
+    </section>
     <!-- section: About Me  -->
     <section>
         <h2><u>About Me</u></h2>
@@ -39,7 +62,9 @@
         </ol>
     </section>
     <hr>
-    <table border="1" cellpadding="5" cellspacing="0">
+    <!-- section:Technologies  -->
+    <section>
+        <table border="1" cellpadding="5" cellspacing="0">
         <thead>
             <tr>
                 <th>Technology</th>
@@ -62,7 +87,8 @@
             </tr>
         </tbody>
     </table>
-        <!-- section:Skills  -->
+    </section>
+    <!-- section:Skills  -->
     <section>
         <h2>Skills</h2>
         <p>A list of my technical and soft skills.</p>
@@ -91,6 +117,7 @@
             <li>HSC - Kurigram government women's college (Graduated: 2020)</li>
             <li>SSC - Kurigram government girls' high school (Graduated: 2018)</li>
         </ul>
+    </section>
     <!-- section:Projects  -->
     <section>
         <h2>Projects</h2>
@@ -136,13 +163,22 @@
         </ul>
     </section>
     <hr>
-    <!-- section:Footer  -->
+    </main>
+
+    <!-- Footer  -->
     <footer>
         <p>&copy; 2023 Sumaiya Alam. All rights reserved.</p>
         <p>Last updated: October 2023</p>
         <a href="tel:01757188749">Call me</a>
-    </footer>
-    <hr>
+        <hr>
+        <h3>Follow me</h3>
+        <ul>
+            <li>
+                <a href="https://www.facebook.com/sumaiya.alam.749" target="_blank"><i class="fa-brands fa-facebook"></i> Facebook
+                </a>
+            </li>
+        </ul>
+
     <!-- section:End  -->
     <p>Thank you for visiting my portfolio! Feel free to reach out if you have any questions or would like to collaborate.</p>
     <p>For more information, please check my <a href="@xyz-portfolio.com" target="_blank">portfolio website</a>.</p>
@@ -157,6 +193,6 @@
             <dd><a href="mailto:alamsumaiya291@gmail.com" target="_blank"> alamsumaiya291</a></dd>
         </dl>
     </section> -->
-    
+    </footer>
 </body>
 </html>

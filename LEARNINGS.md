@@ -55,3 +55,5 @@
 -form data send to your email
 -multimedia
 -html5 elements
+
+- deploy in netlify

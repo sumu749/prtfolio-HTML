@@ -28,11 +28,18 @@
     -comment: <!-- basic info -->
 8. Headings,Paragraphs,Line Breaks,Horizontal rule:
 9. Semantic HTML,Non-semantic HTML : meaningful/non-meaningful
-    -semantic:header,footer,main,form,table
+    -semantic:header,footer,main,form,table,section
     -non-semantic:div,span
-10. Text formatting tag:
+10. Text formatting tag:h1-6,i,b,strong,em,del,sub,sup
 11. List:
-12. Link:
-13. Table:
-14. Form:
-15. Deploy:
+    -ordered list
+    -un-ordered list
+    -definition
+    -nested list
+12. Link and Navigation:
+    -absolute link,relative link
+    -a tag, attributes:href,target,title
+13. image:
+14. Basic Table:
+15. Basic Form:
+16. Deploy:

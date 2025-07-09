@@ -56,4 +56,13 @@
 -multimedia
 -html5 elements
 
-- deploy in netlify
+- Deploy in netlify
+  
+## Advance HTML
+
+-more advance form
+-web accessibility
+-HTML5 API
+-HTML Templates and web components
+-sources for symbols,icons,emojis and colors
+-learning resources
